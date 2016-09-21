@@ -1,0 +1,158 @@
+[ 2016-08-10T21:14:03+08:00 ] 58.247.206.148 /Weixin/Index/validate.html?signature=280494b6f38fd628a451cbf98066c590549849ab&timestamp=1470834843&nonce=1360300149&openid=oAl9Fwvu0TvCWngIrxuG-qdJ73js&encrypt_type=aes&msg_signature=6e2884ba22f712b08362d302e091ca39522ac8b1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.000994s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001337s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000371s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000413s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.0008s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE `status` = 1  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: echostr /alidata/www/gongfo/Application/Weixin/Controller/IndexController.class.php 第 22 行.
+
+[ 2016-08-10T21:17:12+08:00 ] 180.153.214.152 /Weixin/Index/validate.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001387s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000324s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000365s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.0008s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE `status` = 1  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: nonce /alidata/www/gongfo/Application/Weixin/Controller/IndexController.class.php 第 19 行.
+NOTIC: [8] Undefined index: timestamp /alidata/www/gongfo/Application/Weixin/Controller/IndexController.class.php 第 21 行.
+NOTIC: [8] Undefined index: echostr /alidata/www/gongfo/Application/Weixin/Controller/IndexController.class.php 第 22 行.
+NOTIC: [8] Undefined index: signature /alidata/www/gongfo/Application/Weixin/Controller/IndexController.class.php 第 23 行.
+NOTIC: [8] Undefined index: HTTP_RAW_POST_DATA /alidata/www/gongfo/Application/Weixin/Controller/IndexController.class.php 第 43 行.
+NOTIC: [8] Trying to get property of non-object /alidata/www/gongfo/Application/Weixin/Controller/IndexController.class.php 第 62 行.
+NOTIC: [8] Trying to get property of non-object /alidata/www/gongfo/Application/Weixin/Controller/IndexController.class.php 第 147 行.
+NOTIC: [8] Trying to get property of non-object /alidata/www/gongfo/Application/Weixin/Controller/IndexController.class.php 第 161 行.
+NOTIC: [8] Trying to get property of non-object /alidata/www/gongfo/Application/Weixin/Controller/IndexController.class.php 第 186 行.
+NOTIC: [8] Trying to get property of non-object /alidata/www/gongfo/Application/Weixin/Controller/IndexController.class.php 第 187 行.
+NOTIC: [8] Undefined variable: content /alidata/www/gongfo/Application/Weixin/Controller/IndexController.class.php 第 191 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000366s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000427s ]
+
+[ 2016-08-10T21:23:39+08:00 ] 119.147.146.193 /Weixin/Index/validate.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.000949s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001244s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000333s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000372s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.0008s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE `status` = 1  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: nonce /alidata/www/gongfo/Application/Weixin/Controller/IndexController.class.php 第 19 行.
+NOTIC: [8] Undefined index: timestamp /alidata/www/gongfo/Application/Weixin/Controller/IndexController.class.php 第 21 行.
+NOTIC: [8] Undefined index: echostr /alidata/www/gongfo/Application/Weixin/Controller/IndexController.class.php 第 22 行.
+NOTIC: [8] Undefined index: signature /alidata/www/gongfo/Application/Weixin/Controller/IndexController.class.php 第 23 行.
+NOTIC: [8] Undefined index: HTTP_RAW_POST_DATA /alidata/www/gongfo/Application/Weixin/Controller/IndexController.class.php 第 43 行.
+NOTIC: [8] Trying to get property of non-object /alidata/www/gongfo/Application/Weixin/Controller/IndexController.class.php 第 62 行.
+NOTIC: [8] Trying to get property of non-object /alidata/www/gongfo/Application/Weixin/Controller/IndexController.class.php 第 147 行.
+NOTIC: [8] Trying to get property of non-object /alidata/www/gongfo/Application/Weixin/Controller/IndexController.class.php 第 161 行.
+NOTIC: [8] Trying to get property of non-object /alidata/www/gongfo/Application/Weixin/Controller/IndexController.class.php 第 186 行.
+NOTIC: [8] Trying to get property of non-object /alidata/www/gongfo/Application/Weixin/Controller/IndexController.class.php 第 187 行.
+NOTIC: [8] Undefined variable: content /alidata/www/gongfo/Application/Weixin/Controller/IndexController.class.php 第 191 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000346s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000383s ]
+
+[ 2016-08-10T23:49:28+08:00 ] 140.207.54.75 /Weixin/Index/validate.html?signature=9df3f70c2afc8fa5523990d33c84b394742cbae7&timestamp=1470844167&nonce=1808652145&openid=oAl9FwmjW-OSvN0YVICJBwd6QUnM&encrypt_type=aes&msg_signature=17f6dcc3acc73dafcfde769550d24741232ec964
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.000982s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001273s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000590s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000716s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.0008s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE `status` = 1  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: echostr /alidata/www/gongfo/Application/Weixin/Controller/IndexController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: content /alidata/www/gongfo/Application/Weixin/Controller/IndexController.class.php 第 191 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000415s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000455s ]
+
+[ 2016-08-10T23:50:43+08:00 ] 140.207.54.74 /Weixin/Index/validate.html?signature=41f61d6a1f125cf488eb484d11b6808f1e32c48d&timestamp=1470844243&nonce=1287408544&openid=oAl9FwmjW-OSvN0YVICJBwd6QUnM&encrypt_type=aes&msg_signature=c50bb53bd1b404f87d8921b16218dfc4b2e12ac5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001375s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001738s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000550s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000614s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.0008s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE `status` = 1  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: echostr /alidata/www/gongfo/Application/Weixin/Controller/IndexController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: content /alidata/www/gongfo/Application/Weixin/Controller/IndexController.class.php 第 191 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000397s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000440s ]
+
+[ 2016-08-10T23:50:54+08:00 ] 140.207.54.75 /Weixin/Index/validate.html?signature=929f8b7bdb49f61746400350d4edf919d762d800&timestamp=1470844254&nonce=444246819&openid=oAl9FwmjW-OSvN0YVICJBwd6QUnM&encrypt_type=aes&msg_signature=ed11b9f0105deb70a3c0174415befc3418fb1508
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.000954s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001253s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000321s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000362s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.0008s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE `status` = 1  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: echostr /alidata/www/gongfo/Application/Weixin/Controller/IndexController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: content /alidata/www/gongfo/Application/Weixin/Controller/IndexController.class.php 第 191 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000358s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000396s ]
+
+[ 2016-08-10T23:51:24+08:00 ] 140.207.54.75 /Weixin/Index/validate.html?signature=b40f7d68497d9d6409b8e38b291ad6f835acfb43&timestamp=1470844284&nonce=714739352&openid=oAl9FwmjW-OSvN0YVICJBwd6QUnM&encrypt_type=aes&msg_signature=f8faac2808f634d3ed710528cfedf54599fa0800
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001308s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000323s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000364s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.0008s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE `status` = 1  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: echostr /alidata/www/gongfo/Application/Weixin/Controller/IndexController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: content /alidata/www/gongfo/Application/Weixin/Controller/IndexController.class.php 第 191 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000430s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000508s ]
+
+[ 2016-08-10T23:58:58+08:00 ] 140.207.54.75 /Weixin/Index/validate.html?signature=fbfe832a374bb376aab193b0307a57654d6ce6bc&timestamp=1470844738&nonce=791371497&openid=oAl9FwmjW-OSvN0YVICJBwd6QUnM&encrypt_type=aes&msg_signature=963a89b98948e946e45e05a703cc51b9e14914a0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.000964s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001269s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000476s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000517s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.0008s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE `status` = 1  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: echostr /alidata/www/gongfo/Application/Weixin/Controller/IndexController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: content /alidata/www/gongfo/Application/Weixin/Controller/IndexController.class.php 第 191 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000381s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000421s ]
+
+[ 2016-08-10T23:59:05+08:00 ] 140.207.54.75 /Weixin/Index/validate.html?signature=505afac34c25704527156fadca853effc8a4e280&timestamp=1470844745&nonce=1127275993&openid=oAl9FwmjW-OSvN0YVICJBwd6QUnM&encrypt_type=aes&msg_signature=9cddd1b2e49b35938918d8e68621d89a138075a5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.000961s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001265s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000332s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000372s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.0008s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE `status` = 1  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: echostr /alidata/www/gongfo/Application/Weixin/Controller/IndexController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: content /alidata/www/gongfo/Application/Weixin/Controller/IndexController.class.php 第 191 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000360s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000401s ]
+

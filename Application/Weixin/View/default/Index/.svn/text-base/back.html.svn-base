@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+	<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+	<meta name="format-detection" content="telephone=no, email=no" />
+	<title>回向</title>
+	<script type="text/javascript" src="__PUBLIC__/js/flexible.js"></script>
+	<script type="text/javascript" src="__PUBLIC__/js/pageloading.js"></script>
+	<link type="text/css" rel="stylesheet" href="__PUBLIC__/css/back.css">
+</head>
+<body>
+	<div class="backbox">
+		<div class="backframe">
+			<div class="backtitle">
+				<span class="name">善信佛子：</span><span class="enterTxt"><input type="text" id="fromname" class="txt"></span>
+				<p>愿以此功德，普及于一切。<br>我等与众生，皆共成佛道。</p>
+			</div>
+			<div class="backrow">
+				特别回向给：<span class="enterTxt"><input type="text" id="toname" class="txt"></span>
+			</div>
+			<div class="backrow">
+				愿他（她）：<span class="enterTxt"><input type="text"  id="hope" class="txt"></span>
+			</div>
+			<a id="doback" class="surebtn"></a>
+		</div>
+		<div class="backtip">
+			<div class="title">扩展知识：为什么要回向</div>
+			<div class="cont">
+				念佛，放生，抄经，所做的一切行善积德的事情都会有“功德”。将自家所修的功德“回”转归“向”亲朋好友法界众生，不管他们是否学佛，都能结缘佛法，蒙佛加持。“回向”更是修持菩提心最重要的一门功夫
+			</div>
+		</div>
+	</div>
+	<ul class="nav">
+		<li class="on"><a href="{:U('Weixin/Index/index',array('openid'=>$openid))}"></a></li>
+			<li><a href="{:U('Weixin/Index/intro',array('openid'=>$openid))}"></a></li>
+			<li><a href="{:U('Weixin/Index/record',array('openid'=>$openid))}"></a></li>
+			<li><a href="javascript:;" class="sbtn"></a></li>
+	</ul>
+	<div id="mask"></div>
+	<script src="__PUBLIC__/js/zepto.min.js"></script>
+	<script src="__PUBLIC__/js/fun.js"></script>
+	<script src="http://cdn.bootcss.com/jquery/1.11.1/jquery.min.js"></script>
+	<script type="text/javascript">
+	$(document).ready(function(){
+	$("#doback").click(function(){
+		self.location="{:U('Weixin/Index/doback')}&recordid=<?php echo $recordid?>&openid=<?php echo $openid?>&fromname="+$("#fromname").val()+"&toname="+$("#toname").val()+"&hope="+$("#hope").val()
+		//$.get("?a=doback&openid=<?php echo $openid?>&fromname="+$("#fromname").val()+"&toname="+$("#toname").val()+"&hope="+$("#hope").val(),function(data,status){});
+	});
+	});
+	</script>
+	<?php 
+	$jssdk = new JSSDK("wx7e7937bdb109775d", "f7492a9847327c7faf8f1a512b512e59");
+	$signPackage = $jssdk->GetSignPackage();
+?>
+<script src="http://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script>
+<script>
+wx.config({
+    debug: false,
+    appId: '<?php echo $signPackage["appId"];?>',
+    timestamp: <?php echo $signPackage["timestamp"];?>,
+    nonceStr: '<?php echo $signPackage["nonceStr"];?>',
+    signature: '<?php echo $signPackage["signature"];?>',
+    jsApiList: [
+		'onMenuShareTimeline',
+		'onMenuShareAppMessage'
+    ]
+});
+wx.ready(function () {
+	wx.onMenuShareTimeline({
+		title: '诚心愿以此功德普及一切，我等与众生，皆共成佛道！', 
+		link: 'http://www.tianyouqifu.com',
+		imgUrl: 'http://www.tianyouqifu.com/Public/pic/share.png',
+		success: function () { 
+			window.location.href="http://www.tianyouqifu.com/";
+		},
+		cancel: function () { 
+			window.location.href="http://www.tianyouqifu.com/";
+		}
+	});
+});
+</script>
+</body>
+</html>

@@ -1,0 +1,1804 @@
+[ 2016-08-18T06:33:07+08:00 ] 140.207.54.75 /Weixin/Index/validate.html?signature=26671cccc4a2d09f175dd646c6784631d7b93f20&timestamp=1471473187&nonce=376572687&openid=oAl9FwjHyhsq4tnfBrAKxFFN7i2E&encrypt_type=aes&msg_signature=864cc0ab823e55d6f5ca770562df9427c0963772
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001336s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001711s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000343s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000386s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.0008s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE `status` = 1  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: echostr /alidata/www/gongfo/Application/Weixin/Controller/IndexController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: content /alidata/www/gongfo/Application/Weixin/Controller/IndexController.class.php 第 191 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000457s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000502s ]
+
+[ 2016-08-18T06:33:09+08:00 ] 124.112.160.96 /index.php?s=/Weixin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.000948s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001261s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000349s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000389s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.0008s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE `status` = 1  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000403s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000443s ]
+
+[ 2016-08-18T06:33:09+08:00 ] 124.112.160.96 /index.php?s=/Weixin/Index/index.html&openid=oAl9FwjHyhsq4tnfBrAKxFFN7i2E
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.000945s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001237s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000325s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000365s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.0008s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE `status` = 1  [ RunTime:0.0005s ]
+NOTIC: [8] Use of undefined constant d - assumed 'd' /alidata/www/gongfo/Application/Weixin/Controller/IndexController.class.php 第 205 行.
+SQL: SHOW COLUMNS FROM `onethink_record` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `onethink_record` WHERE ( openid='oAl9FwjHyhsq4tnfBrAKxFFN7i2E' ) ORDER BY id desc LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000109s ]
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST with value 1 is deprecated and will be removed as of libcurl 7.28.1. It is recommended to use value 2 instead /alidata/www/gongfo/Application/Common/Common/jssdk.php 第 101 行.
+NOTIC: [2] fopen(jsapi_ticket.php): failed to open stream: Permission denied /alidata/www/gongfo/Application/Common/Common/jssdk.php 第 114 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given /alidata/www/gongfo/Application/Common/Common/jssdk.php 第 115 行.
+NOTIC: [2] fclose() expects parameter 1 to be resource, boolean given /alidata/www/gongfo/Application/Common/Common/jssdk.php 第 116 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.145305s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.145359s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000258s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000304s ]
+SQL: SHOW COLUMNS FROM `onethink_user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `onethink_user` WHERE ( openid='oAl9FwjHyhsq4tnfBrAKxFFN7i2E' )  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000484s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000522s ]
+
+[ 2016-08-18T06:33:13+08:00 ] 124.112.160.96 /index.php?s=/Weixin/Index/tribute/openid/oAl9FwjHyhsq4tnfBrAKxFFN7i2E.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.000946s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001238s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000325s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000366s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.0010s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE `status` = 1  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `onethink_hp` [ RunTime:0.0116s ]
+SQL: SELECT * FROM `onethink_hp` ORDER BY id asc  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `onethink_xl` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `onethink_xl` ORDER BY id asc  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `onethink_gp` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `onethink_gp` ORDER BY id asc  [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant d - assumed 'd' /alidata/www/gongfo/Application/Weixin/Controller/IndexController.class.php 第 337 行.
+SQL: SHOW COLUMNS FROM `onethink_record` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `onethink_record` WHERE ( openid='oAl9FwjHyhsq4tnfBrAKxFFN7i2E' ) ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000062s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000111s ]
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST with value 1 is deprecated and will be removed as of libcurl 7.28.1. It is recommended to use value 2 instead /alidata/www/gongfo/Application/Common/Common/jssdk.php 第 101 行.
+NOTIC: [2] fopen(jsapi_ticket.php): failed to open stream: Permission denied /alidata/www/gongfo/Application/Common/Common/jssdk.php 第 114 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given /alidata/www/gongfo/Application/Common/Common/jssdk.php 第 115 行.
+NOTIC: [2] fclose() expects parameter 1 to be resource, boolean given /alidata/www/gongfo/Application/Common/Common/jssdk.php 第 116 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.122976s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.123047s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000293s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000351s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000638s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000701s ]
+
+[ 2016-08-18T06:33:21+08:00 ] 124.112.160.96 /index.php?s=/Weixin/Index/dorecord.html&hpno=1&xlno=1&gpno=1&openid=oAl9FwjHyhsq4tnfBrAKxFFN7i2E
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.000983s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001289s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000334s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000374s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.0008s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE `status` = 1  [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant d - assumed 'd' /alidata/www/gongfo/Application/Weixin/Controller/IndexController.class.php 第 384 行.
+SQL: SHOW COLUMNS FROM `onethink_record` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `onethink_record` WHERE ( openid='oAl9FwjHyhsq4tnfBrAKxFFN7i2E' ) ORDER BY id desc LIMIT 1   [ RunTime:0.0003s ]
+SQL: insert into onethink_record(openid,hpno,xlno,gpno) value('oAl9FwjHyhsq4tnfBrAKxFFN7i2E','1','1','1') [ RunTime:0.0240s ]
+NOTIC: [8] Use of undefined constant recordtime - assumed 'recordtime' /alidata/www/gongfo/Application/Weixin/Controller/IndexController.class.php 第 393 行.
+SQL: SHOW COLUMNS FROM `onethink_user` [ RunTime:0.0009s ]
+SQL: UPDATE `onethink_user` SET `recordtime`='2016-08-18 06:33:21' WHERE ( openid='oAl9FwjHyhsq4tnfBrAKxFFN7i2E' ) [ RunTime:0.0180s ]
+NOTIC: [8] Undefined variable: url /alidata/www/gongfo/Application/Weixin/Controller/IndexController.class.php 第 395 行.
+
+[ 2016-08-18T06:33:21+08:00 ] 124.112.160.96 /index.php?s=/Weixin/Index/change.html&recordid=0&openid=oAl9FwjHyhsq4tnfBrAKxFFN7i2E
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.000933s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001216s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000327s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000367s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.0008s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE `status` = 1  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000067s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000138s ]
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST with value 1 is deprecated and will be removed as of libcurl 7.28.1. It is recommended to use value 2 instead /alidata/www/gongfo/Application/Common/Common/jssdk.php 第 101 行.
+NOTIC: [2] fopen(jsapi_ticket.php): failed to open stream: Permission denied /alidata/www/gongfo/Application/Common/Common/jssdk.php 第 114 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given /alidata/www/gongfo/Application/Common/Common/jssdk.php 第 115 行.
+NOTIC: [2] fclose() expects parameter 1 to be resource, boolean given /alidata/www/gongfo/Application/Common/Common/jssdk.php 第 116 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.133423s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.133485s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000275s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000313s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000432s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000469s ]
+
+[ 2016-08-18T06:33:23+08:00 ] 124.112.160.96 /index.php?s=/Weixin/Index/back/openid/oAl9FwjHyhsq4tnfBrAKxFFN7i2E/recordid/0.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.000954s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001251s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000351s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000392s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.0008s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE `status` = 1  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000045s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000084s ]
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST with value 1 is deprecated and will be removed as of libcurl 7.28.1. It is recommended to use value 2 instead /alidata/www/gongfo/Application/Common/Common/jssdk.php 第 101 行.
+NOTIC: [2] fopen(jsapi_ticket.php): failed to open stream: Permission denied /alidata/www/gongfo/Application/Common/Common/jssdk.php 第 114 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given /alidata/www/gongfo/Application/Common/Common/jssdk.php 第 115 行.
+NOTIC: [2] fclose() expects parameter 1 to be resource, boolean given /alidata/www/gongfo/Application/Common/Common/jssdk.php 第 116 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.131124s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.131199s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000230s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000265s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000416s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000453s ]
+
+[ 2016-08-18T06:34:04+08:00 ] 124.112.160.96 /index.php?s=/Weixin/Index/doback.html&recordid=0&openid=oAl9FwjHyhsq4tnfBrAKxFFN7i2E&fromname=%E9%99%88%E7%BA%A2%E6%A2%85&toname=%E8%A7%82%E9%9F%B3%E8%8F%A9%E8%90%A8&hope=%E5%B9%B8%E7%A6%8F%E5%BF%AB%E4%B9%90%EF%BC%81
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.000939s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001224s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000396s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000443s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.0008s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE `status` = 1  [ RunTime:0.0003s ]
+SQL: update onethink_record set fromname='陈红梅' where id='0' [ RunTime:0.0003s ]
+SQL: update onethink_record set toname='观音菩萨' where id='0' [ RunTime:0.0002s ]
+SQL: update onethink_record set hope='幸福快乐！' where id='0' [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000089s ]
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST with value 1 is deprecated and will be removed as of libcurl 7.28.1. It is recommended to use value 2 instead /alidata/www/gongfo/Application/Common/Common/jssdk.php 第 101 行.
+NOTIC: [2] fopen(jsapi_ticket.php): failed to open stream: Permission denied /alidata/www/gongfo/Application/Common/Common/jssdk.php 第 114 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given /alidata/www/gongfo/Application/Common/Common/jssdk.php 第 115 行.
+NOTIC: [2] fclose() expects parameter 1 to be resource, boolean given /alidata/www/gongfo/Application/Common/Common/jssdk.php 第 116 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.122438s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.122490s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000232s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000268s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000493s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000531s ]
+
+[ 2016-08-18T06:34:08+08:00 ] 124.112.160.96 /index.php?s=/Weixin/Index/back/openid/oAl9FwjHyhsq4tnfBrAKxFFN7i2E/recordid/0.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.000970s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001284s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000339s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000381s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.0008s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE `status` = 1  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000091s ]
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST with value 1 is deprecated and will be removed as of libcurl 7.28.1. It is recommended to use value 2 instead /alidata/www/gongfo/Application/Common/Common/jssdk.php 第 101 行.
+NOTIC: [2] fopen(jsapi_ticket.php): failed to open stream: Permission denied /alidata/www/gongfo/Application/Common/Common/jssdk.php 第 114 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given /alidata/www/gongfo/Application/Common/Common/jssdk.php 第 115 行.
+NOTIC: [2] fclose() expects parameter 1 to be resource, boolean given /alidata/www/gongfo/Application/Common/Common/jssdk.php 第 116 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.143794s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.143868s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000235s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000271s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000423s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000458s ]
+
+[ 2016-08-18T06:36:20+08:00 ] 101.226.89.122 /index.php?s=/Weixin/Index/dorecord.html&hpno=1&xlno=1&gpno=1&openid=oAl9FwjHyhsq4tnfBrAKxFFN7i2E
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.000992s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001299s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000335s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000375s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.0008s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE `status` = 1  [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant d - assumed 'd' /alidata/www/gongfo/Application/Weixin/Controller/IndexController.class.php 第 384 行.
+SQL: SHOW COLUMNS FROM `onethink_record` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `onethink_record` WHERE ( openid='oAl9FwjHyhsq4tnfBrAKxFFN7i2E' ) ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: insertid /alidata/www/gongfo/Application/Weixin/Controller/IndexController.class.php 第 406 行.
+NOTIC: [8] Undefined variable: url /alidata/www/gongfo/Application/Weixin/Controller/IndexController.class.php 第 406 行.
+
+[ 2016-08-18T06:36:20+08:00 ] 101.226.89.122 /index.php?s=/Weixin/Index/change.html&recordid=&openid=oAl9FwjHyhsq4tnfBrAKxFFN7i2E
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.000964s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001255s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000325s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000365s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.0008s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE `status` = 1  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000085s ]
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST with value 1 is deprecated and will be removed as of libcurl 7.28.1. It is recommended to use value 2 instead /alidata/www/gongfo/Application/Common/Common/jssdk.php 第 101 行.
+NOTIC: [2] fopen(jsapi_ticket.php): failed to open stream: Permission denied /alidata/www/gongfo/Application/Common/Common/jssdk.php 第 114 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given /alidata/www/gongfo/Application/Common/Common/jssdk.php 第 115 行.
+NOTIC: [2] fclose() expects parameter 1 to be resource, boolean given /alidata/www/gongfo/Application/Common/Common/jssdk.php 第 116 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.141392s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.141442s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000328s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000365s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000435s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000472s ]
+
+[ 2016-08-18T06:36:27+08:00 ] 101.226.99.197 /index.php?s=/Weixin/Index/dorecord.html&hpno=1&xlno=1&gpno=1&openid=oAl9FwjHyhsq4tnfBrAKxFFN7i2E
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001410s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000438s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000551s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.0008s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE `status` = 1  [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant d - assumed 'd' /alidata/www/gongfo/Application/Weixin/Controller/IndexController.class.php 第 384 行.
+SQL: SHOW COLUMNS FROM `onethink_record` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `onethink_record` WHERE ( openid='oAl9FwjHyhsq4tnfBrAKxFFN7i2E' ) ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: insertid /alidata/www/gongfo/Application/Weixin/Controller/IndexController.class.php 第 406 行.
+NOTIC: [8] Undefined variable: url /alidata/www/gongfo/Application/Weixin/Controller/IndexController.class.php 第 406 行.
+
+[ 2016-08-18T06:36:27+08:00 ] 101.226.99.197 /index.php?s=/Weixin/Index/change.html&recordid=&openid=oAl9FwjHyhsq4tnfBrAKxFFN7i2E
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001320s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000325s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000365s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.0008s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE `status` = 1  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000090s ]
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST with value 1 is deprecated and will be removed as of libcurl 7.28.1. It is recommended to use value 2 instead /alidata/www/gongfo/Application/Common/Common/jssdk.php 第 101 行.
+NOTIC: [2] fopen(jsapi_ticket.php): failed to open stream: Permission denied /alidata/www/gongfo/Application/Common/Common/jssdk.php 第 114 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given /alidata/www/gongfo/Application/Common/Common/jssdk.php 第 115 行.
+NOTIC: [2] fclose() expects parameter 1 to be resource, boolean given /alidata/www/gongfo/Application/Common/Common/jssdk.php 第 116 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.139911s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.139978s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000308s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000365s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000661s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000719s ]
+
+[ 2016-08-18T06:36:32+08:00 ] 101.226.33.202 /index.php?s=/Weixin/Index/back/openid/oAl9FwjHyhsq4tnfBrAKxFFN7i2E/recordid/0.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.000931s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001212s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000325s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000364s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.0018s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE `status` = 1  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000087s ]
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST with value 1 is deprecated and will be removed as of libcurl 7.28.1. It is recommended to use value 2 instead /alidata/www/gongfo/Application/Common/Common/jssdk.php 第 101 行.
+NOTIC: [2] fopen(jsapi_ticket.php): failed to open stream: Permission denied /alidata/www/gongfo/Application/Common/Common/jssdk.php 第 114 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given /alidata/www/gongfo/Application/Common/Common/jssdk.php 第 115 行.
+NOTIC: [2] fclose() expects parameter 1 to be resource, boolean given /alidata/www/gongfo/Application/Common/Common/jssdk.php 第 116 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.128432s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.128487s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000226s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000263s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000408s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000446s ]
+
+[ 2016-08-18T06:37:04+08:00 ] 101.226.89.121 /index.php?s=/Weixin/Index/doback.html&recordid=0&openid=oAl9FwjHyhsq4tnfBrAKxFFN7i2E&fromname=%E9%99%88%E7%BA%A2%E6%A2%85&toname=%E8%A7%82%E9%9F%B3%E8%8F%A9%E8%90%A8&hope=%E5%B9%B8%E7%A6%8F%E5%BF%AB%E4%B9%90%EF%BC%81
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001341s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000348s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000387s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.0008s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE `status` = 1  [ RunTime:0.0005s ]
+SQL: update onethink_record set fromname='陈红梅' where id='0' [ RunTime:0.0004s ]
+SQL: update onethink_record set toname='观音菩萨' where id='0' [ RunTime:0.0002s ]
+SQL: update onethink_record set hope='幸福快乐！' where id='0' [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000088s ]
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST with value 1 is deprecated and will be removed as of libcurl 7.28.1. It is recommended to use value 2 instead /alidata/www/gongfo/Application/Common/Common/jssdk.php 第 101 行.
+NOTIC: [2] fopen(jsapi_ticket.php): failed to open stream: Permission denied /alidata/www/gongfo/Application/Common/Common/jssdk.php 第 114 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given /alidata/www/gongfo/Application/Common/Common/jssdk.php 第 115 行.
+NOTIC: [2] fclose() expects parameter 1 to be resource, boolean given /alidata/www/gongfo/Application/Common/Common/jssdk.php 第 116 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.121132s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.121194s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000237s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000272s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000441s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000478s ]
+
+[ 2016-08-18T07:33:28+08:00 ] 123.151.38.94 /index.php?s=/Weixin/Index/index/openid/oAl9Fwr8Mbeypn2f9kMJHUn6UzMs.html&from=timeline&isappinstalled=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.000959s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001251s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000327s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000367s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.0009s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE `status` = 1  [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant d - assumed 'd' /alidata/www/gongfo/Application/Weixin/Controller/IndexController.class.php 第 205 行.
+SQL: SHOW COLUMNS FROM `onethink_record` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `onethink_record` WHERE ( openid='oAl9Fwr8Mbeypn2f9kMJHUn6UzMs' ) ORDER BY id desc LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000129s ]
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST with value 1 is deprecated and will be removed as of libcurl 7.28.1. It is recommended to use value 2 instead /alidata/www/gongfo/Application/Common/Common/jssdk.php 第 101 行.
+NOTIC: [2] fopen(jsapi_ticket.php): failed to open stream: Permission denied /alidata/www/gongfo/Application/Common/Common/jssdk.php 第 114 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given /alidata/www/gongfo/Application/Common/Common/jssdk.php 第 115 行.
+NOTIC: [2] fclose() expects parameter 1 to be resource, boolean given /alidata/www/gongfo/Application/Common/Common/jssdk.php 第 116 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.147049s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.147104s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000229s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000265s ]
+SQL: SHOW COLUMNS FROM `onethink_user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `onethink_user` WHERE ( openid='oAl9Fwr8Mbeypn2f9kMJHUn6UzMs' )  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000431s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000469s ]
+
+[ 2016-08-18T09:45:43+08:00 ] 123.151.42.47 /index.php?s=/Weixin/Index/record/openid/oAl9Fwr8Mbeypn2f9kMJHUn6UzMs.html&from=timeline&isappinstalled=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001100s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001406s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000329s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000369s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.0008s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE `status` = 1  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `onethink_record` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `onethink_record` WHERE ( openid='oAl9Fwr8Mbeypn2f9kMJHUn6UzMs' ) ORDER BY id desc  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000054s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000104s ]
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST with value 1 is deprecated and will be removed as of libcurl 7.28.1. It is recommended to use value 2 instead /alidata/www/gongfo/Application/Common/Common/jssdk.php 第 101 行.
+NOTIC: [2] fopen(jsapi_ticket.php): failed to open stream: Permission denied /alidata/www/gongfo/Application/Common/Common/jssdk.php 第 114 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given /alidata/www/gongfo/Application/Common/Common/jssdk.php 第 115 行.
+NOTIC: [2] fclose() expects parameter 1 to be resource, boolean given /alidata/www/gongfo/Application/Common/Common/jssdk.php 第 116 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.305580s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.305631s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000224s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000260s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000439s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000477s ]
+
+[ 2016-08-18T09:55:29+08:00 ] 140.207.54.80 /Weixin/Index/validate.html?signature=c6e9e87fa5e92a748897890d520f471b612ad31b&timestamp=1471485329&nonce=13529053&openid=oAl9Fwr4xDrKG5N_fik3Q5N-DCQ0&encrypt_type=aes&msg_signature=b979d3f0504646824d7b592ba9ff6038bbc0ed68
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.000951s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001241s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000320s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000361s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.0008s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE `status` = 1  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: echostr /alidata/www/gongfo/Application/Weixin/Controller/IndexController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: content /alidata/www/gongfo/Application/Weixin/Controller/IndexController.class.php 第 191 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000406s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000448s ]
+
+[ 2016-08-18T09:55:29+08:00 ] 183.193.37.51 /index.php?s=/Weixin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001426s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000381s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000442s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.0009s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE `status` = 1  [ RunTime:0.0003s ]
+
+[ 2016-08-18T09:55:32+08:00 ] 183.193.37.51 /index.php?s=/Weixin/Index/getopenid.html&page=index&code=031TQgAf0nG8fE1zGuBf0T6cAf0TQgA2&state=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001363s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001687s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000389s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000430s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.0008s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE `status` = 1  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `onethink_user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `onethink_user` WHERE ( openid='oAl9Fwr4xDrKG5N_fik3Q5N-DCQ0' )  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000601s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000666s ]
+
+[ 2016-08-18T09:55:33+08:00 ] 183.193.37.51 /index.php?s=/Weixin/Index/index.html&openid=oAl9Fwr4xDrKG5N_fik3Q5N-DCQ0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.000958s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001279s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000345s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000384s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.0008s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE `status` = 1  [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant d - assumed 'd' /alidata/www/gongfo/Application/Weixin/Controller/IndexController.class.php 第 205 行.
+SQL: SHOW COLUMNS FROM `onethink_record` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `onethink_record` WHERE ( openid='oAl9Fwr4xDrKG5N_fik3Q5N-DCQ0' ) ORDER BY id desc LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000082s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000131s ]
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST with value 1 is deprecated and will be removed as of libcurl 7.28.1. It is recommended to use value 2 instead /alidata/www/gongfo/Application/Common/Common/jssdk.php 第 101 行.
+NOTIC: [2] fopen(jsapi_ticket.php): failed to open stream: Permission denied /alidata/www/gongfo/Application/Common/Common/jssdk.php 第 114 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given /alidata/www/gongfo/Application/Common/Common/jssdk.php 第 115 行.
+NOTIC: [2] fclose() expects parameter 1 to be resource, boolean given /alidata/www/gongfo/Application/Common/Common/jssdk.php 第 116 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.140660s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.140715s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000236s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000272s ]
+SQL: SHOW COLUMNS FROM `onethink_user` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `onethink_user` WHERE ( openid='oAl9Fwr4xDrKG5N_fik3Q5N-DCQ0' )  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000471s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000510s ]
+
+[ 2016-08-18T09:56:28+08:00 ] 183.193.37.51 /index.php?s=/Weixin/Index/getopenid.html&page=index&code=031tQx2y1BwUy30xEQ2y19Sw2y1tQx2H&state=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.000947s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001235s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000320s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000360s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.0008s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE `status` = 1  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `onethink_user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `onethink_user` WHERE ( openid='oAl9Fwr4xDrKG5N_fik3Q5N-DCQ0' )  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000499s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000546s ]
+
+[ 2016-08-18T09:56:29+08:00 ] 183.193.37.51 /index.php?s=/Weixin/Index/index.html&openid=oAl9Fwr4xDrKG5N_fik3Q5N-DCQ0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.000971s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001264s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000332s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000372s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.0008s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE `status` = 1  [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant d - assumed 'd' /alidata/www/gongfo/Application/Weixin/Controller/IndexController.class.php 第 205 行.
+SQL: SHOW COLUMNS FROM `onethink_record` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `onethink_record` WHERE ( openid='oAl9Fwr4xDrKG5N_fik3Q5N-DCQ0' ) ORDER BY id desc LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000105s ]
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST with value 1 is deprecated and will be removed as of libcurl 7.28.1. It is recommended to use value 2 instead /alidata/www/gongfo/Application/Common/Common/jssdk.php 第 101 行.
+NOTIC: [2] fopen(jsapi_ticket.php): failed to open stream: Permission denied /alidata/www/gongfo/Application/Common/Common/jssdk.php 第 114 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given /alidata/www/gongfo/Application/Common/Common/jssdk.php 第 115 行.
+NOTIC: [2] fclose() expects parameter 1 to be resource, boolean given /alidata/www/gongfo/Application/Common/Common/jssdk.php 第 116 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.143283s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.143339s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000223s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000260s ]
+SQL: SHOW COLUMNS FROM `onethink_user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `onethink_user` WHERE ( openid='oAl9Fwr4xDrKG5N_fik3Q5N-DCQ0' )  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000444s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000484s ]
+
+[ 2016-08-18T09:56:31+08:00 ] 140.207.54.80 /Weixin/Index/validate.html?signature=e7c276946efd8f0d2ff982659e875d685ec8c5b8&timestamp=1471485391&nonce=1996006&openid=oAl9Fwr4xDrKG5N_fik3Q5N-DCQ0&encrypt_type=aes&msg_signature=3a1983e60e18c0a58b2a1c30a3bca7a2a74e89b9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.000944s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001232s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000449s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000490s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.0008s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE `status` = 1  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: echostr /alidata/www/gongfo/Application/Weixin/Controller/IndexController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: content /alidata/www/gongfo/Application/Weixin/Controller/IndexController.class.php 第 191 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000399s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000440s ]
+
+[ 2016-08-18T09:56:53+08:00 ] 140.207.54.80 /Weixin/Index/validate.html?signature=c462170a72c9d460844982f7b5d1486949d30034&timestamp=1471485413&nonce=2018961737&openid=oAl9Fwr4xDrKG5N_fik3Q5N-DCQ0&encrypt_type=aes&msg_signature=21c248e802ac2ce16aa43fe7d715d586377506b6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001347s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000342s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000384s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.0008s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE `status` = 1  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: echostr /alidata/www/gongfo/Application/Weixin/Controller/IndexController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: content /alidata/www/gongfo/Application/Weixin/Controller/IndexController.class.php 第 191 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000494s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000540s ]
+
+[ 2016-08-18T09:57:02+08:00 ] 140.207.54.80 /Weixin/Index/validate.html?signature=13d701e6b47401008f453e6b67b7b4c233792759&timestamp=1471485422&nonce=814856006&openid=oAl9Fwr4xDrKG5N_fik3Q5N-DCQ0&encrypt_type=aes&msg_signature=2890639031af78117e6654956bfaf2fd24479481
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.000986s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001297s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000323s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000363s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.0008s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE `status` = 1  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: echostr /alidata/www/gongfo/Application/Weixin/Controller/IndexController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: content /alidata/www/gongfo/Application/Weixin/Controller/IndexController.class.php 第 191 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000368s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000407s ]
+
+[ 2016-08-18T09:57:08+08:00 ] 140.207.54.80 /Weixin/Index/validate.html?signature=9bdade1233a016a500c7c0fcf53f48419839b7fd&timestamp=1471485427&nonce=321289868&openid=oAl9Fwr4xDrKG5N_fik3Q5N-DCQ0&encrypt_type=aes&msg_signature=a6eb3512312516c035f6576ce320777a3ed80747
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.000952s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001263s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000346s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000386s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.0008s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE `status` = 1  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: echostr /alidata/www/gongfo/Application/Weixin/Controller/IndexController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: content /alidata/www/gongfo/Application/Weixin/Controller/IndexController.class.php 第 191 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000369s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000410s ]
+
+[ 2016-08-18T09:57:16+08:00 ] 140.207.54.80 /Weixin/Index/validate.html?signature=a329f45a8af45f13bf9924e6a23a53b43c3c058a&timestamp=1471485436&nonce=319282346&openid=oAl9Fwr4xDrKG5N_fik3Q5N-DCQ0&encrypt_type=aes&msg_signature=fe721d27df955573ff776f4f9160841087978c41
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.000963s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001262s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000349s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000390s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.0008s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE `status` = 1  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: echostr /alidata/www/gongfo/Application/Weixin/Controller/IndexController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: content /alidata/www/gongfo/Application/Weixin/Controller/IndexController.class.php 第 191 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000360s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000399s ]
+
+[ 2016-08-18T09:57:23+08:00 ] 140.207.54.78 /Weixin/Index/validate.html?signature=2f5b8cd0968906a18f91560c6d9cf88d939555a6&timestamp=1471485443&nonce=889773771&openid=oAl9Fwr4xDrKG5N_fik3Q5N-DCQ0&encrypt_type=aes&msg_signature=f0248474e1b431427d5e02ae1803b8feab93bbdc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001176s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001554s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000377s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000421s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.0008s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE `status` = 1  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: echostr /alidata/www/gongfo/Application/Weixin/Controller/IndexController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: content /alidata/www/gongfo/Application/Weixin/Controller/IndexController.class.php 第 191 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000386s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000432s ]
+
+[ 2016-08-18T09:57:30+08:00 ] 140.207.54.79 /Weixin/Index/validate.html?signature=5afc93247308103614ad43fa6306dcab13790b97&timestamp=1471485450&nonce=2035161796&openid=oAl9Fwr4xDrKG5N_fik3Q5N-DCQ0&encrypt_type=aes&msg_signature=7003dc2c3774bdd2c5ee82e93403ff60743a44a1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.000984s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001303s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000362s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000406s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.0008s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE `status` = 1  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: echostr /alidata/www/gongfo/Application/Weixin/Controller/IndexController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: content /alidata/www/gongfo/Application/Weixin/Controller/IndexController.class.php 第 191 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000423s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000465s ]
+
+[ 2016-08-18T09:58:40+08:00 ] 101.226.125.105 /index.php?s=/Weixin/Index/index.html&openid=oAl9Fwr4xDrKG5N_fik3Q5N-DCQ0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.000935s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001236s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000375s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000414s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.0008s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE `status` = 1  [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant d - assumed 'd' /alidata/www/gongfo/Application/Weixin/Controller/IndexController.class.php 第 205 行.
+SQL: SHOW COLUMNS FROM `onethink_record` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `onethink_record` WHERE ( openid='oAl9Fwr4xDrKG5N_fik3Q5N-DCQ0' ) ORDER BY id desc LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000105s ]
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST with value 1 is deprecated and will be removed as of libcurl 7.28.1. It is recommended to use value 2 instead /alidata/www/gongfo/Application/Common/Common/jssdk.php 第 101 行.
+NOTIC: [2] fopen(jsapi_ticket.php): failed to open stream: Permission denied /alidata/www/gongfo/Application/Common/Common/jssdk.php 第 114 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given /alidata/www/gongfo/Application/Common/Common/jssdk.php 第 115 行.
+NOTIC: [2] fclose() expects parameter 1 to be resource, boolean given /alidata/www/gongfo/Application/Common/Common/jssdk.php 第 116 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.143330s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.143385s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000226s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000262s ]
+SQL: SHOW COLUMNS FROM `onethink_user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `onethink_user` WHERE ( openid='oAl9Fwr4xDrKG5N_fik3Q5N-DCQ0' )  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000420s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000467s ]
+
+[ 2016-08-18T11:50:24+08:00 ] 140.207.54.75 /Weixin/Index/validate.html?signature=52fc6b56140b9cb19f33c81f8d5c9d001d9708d1&timestamp=1471492224&nonce=2130368983&openid=oAl9FwhCp2LChUx8LWxYcbsYkzSQ&encrypt_type=aes&msg_signature=86f4a9be6f98c2b8fc797950f0e68a5f48e71a8a
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.000944s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001231s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000317s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000359s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.0008s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE `status` = 1  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: echostr /alidata/www/gongfo/Application/Weixin/Controller/IndexController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: content /alidata/www/gongfo/Application/Weixin/Controller/IndexController.class.php 第 191 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000415s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000457s ]
+
+[ 2016-08-18T11:50:24+08:00 ] 219.133.40.16 /index.php?s=/Weixin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001100s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001494s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000361s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000403s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.0008s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE `status` = 1  [ RunTime:0.0003s ]
+
+[ 2016-08-18T11:50:27+08:00 ] 219.133.40.16 /index.php?s=/Weixin/Index/getopenid.html&page=index&code=0117m8M50uhlPv1kWiL50ch9M507m8Mo&state=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.000926s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001207s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000339s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000378s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.0008s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE `status` = 1  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `onethink_user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `onethink_user` WHERE ( openid='oAl9FwhCp2LChUx8LWxYcbsYkzSQ' )  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000491s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000538s ]
+
+[ 2016-08-18T11:50:28+08:00 ] 219.133.40.16 /index.php?s=/Weixin/Index/index.html&openid=oAl9FwhCp2LChUx8LWxYcbsYkzSQ
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.000949s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001262s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000361s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000401s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.0008s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE `status` = 1  [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant d - assumed 'd' /alidata/www/gongfo/Application/Weixin/Controller/IndexController.class.php 第 205 行.
+SQL: SHOW COLUMNS FROM `onethink_record` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `onethink_record` WHERE ( openid='oAl9FwhCp2LChUx8LWxYcbsYkzSQ' ) ORDER BY id desc LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000112s ]
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST with value 1 is deprecated and will be removed as of libcurl 7.28.1. It is recommended to use value 2 instead /alidata/www/gongfo/Application/Common/Common/jssdk.php 第 101 行.
+NOTIC: [2] fopen(jsapi_ticket.php): failed to open stream: Permission denied /alidata/www/gongfo/Application/Common/Common/jssdk.php 第 114 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given /alidata/www/gongfo/Application/Common/Common/jssdk.php 第 115 行.
+NOTIC: [2] fclose() expects parameter 1 to be resource, boolean given /alidata/www/gongfo/Application/Common/Common/jssdk.php 第 116 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.127434s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.127488s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000226s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000262s ]
+SQL: SHOW COLUMNS FROM `onethink_user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `onethink_user` WHERE ( openid='oAl9FwhCp2LChUx8LWxYcbsYkzSQ' )  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000431s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000468s ]
+
+[ 2016-08-18T11:50:42+08:00 ] 219.133.40.16 /index.php?s=/Weixin/Index/tribute/openid/oAl9FwhCp2LChUx8LWxYcbsYkzSQ.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001301s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000329s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000369s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.0010s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE `status` = 1  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `onethink_hp` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `onethink_hp` ORDER BY id asc  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `onethink_xl` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `onethink_xl` ORDER BY id asc  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `onethink_gp` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `onethink_gp` ORDER BY id asc  [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant d - assumed 'd' /alidata/www/gongfo/Application/Weixin/Controller/IndexController.class.php 第 337 行.
+SQL: SHOW COLUMNS FROM `onethink_record` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `onethink_record` WHERE ( openid='oAl9FwhCp2LChUx8LWxYcbsYkzSQ' ) ORDER BY id desc LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000144s ]
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST with value 1 is deprecated and will be removed as of libcurl 7.28.1. It is recommended to use value 2 instead /alidata/www/gongfo/Application/Common/Common/jssdk.php 第 101 行.
+NOTIC: [2] fopen(jsapi_ticket.php): failed to open stream: Permission denied /alidata/www/gongfo/Application/Common/Common/jssdk.php 第 114 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given /alidata/www/gongfo/Application/Common/Common/jssdk.php 第 115 行.
+NOTIC: [2] fclose() expects parameter 1 to be resource, boolean given /alidata/www/gongfo/Application/Common/Common/jssdk.php 第 116 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.131888s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.131965s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000230s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000266s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000412s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000452s ]
+
+[ 2016-08-18T11:52:02+08:00 ] 219.133.40.16 /index.php?s=/Weixin/Index/getopenid.html&page=index&code=021vSPil29mUKJ0JGDil2YjRil2vSPim&state=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001410s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000325s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000365s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.0008s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE `status` = 1  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `onethink_user` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `onethink_user` WHERE ( openid='oAl9FwhCp2LChUx8LWxYcbsYkzSQ' )  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000518s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000563s ]
+
+[ 2016-08-18T11:52:03+08:00 ] 14.17.37.144 /index.php?s=/Weixin/Index/index.html&openid=oAl9FwhCp2LChUx8LWxYcbsYkzSQ
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001387s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000336s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000385s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.0009s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE `status` = 1  [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant d - assumed 'd' /alidata/www/gongfo/Application/Weixin/Controller/IndexController.class.php 第 205 行.
+SQL: SHOW COLUMNS FROM `onethink_record` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `onethink_record` WHERE ( openid='oAl9FwhCp2LChUx8LWxYcbsYkzSQ' ) ORDER BY id desc LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000108s ]
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST with value 1 is deprecated and will be removed as of libcurl 7.28.1. It is recommended to use value 2 instead /alidata/www/gongfo/Application/Common/Common/jssdk.php 第 101 行.
+NOTIC: [2] fopen(jsapi_ticket.php): failed to open stream: Permission denied /alidata/www/gongfo/Application/Common/Common/jssdk.php 第 114 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given /alidata/www/gongfo/Application/Common/Common/jssdk.php 第 115 行.
+NOTIC: [2] fclose() expects parameter 1 to be resource, boolean given /alidata/www/gongfo/Application/Common/Common/jssdk.php 第 116 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.142863s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.142917s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000222s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000257s ]
+SQL: SHOW COLUMNS FROM `onethink_user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `onethink_user` WHERE ( openid='oAl9FwhCp2LChUx8LWxYcbsYkzSQ' )  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000413s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000452s ]
+
+[ 2016-08-18T11:52:41+08:00 ] 140.207.54.73 /Weixin/Index/validate.html?signature=0f12ed79b660e3aecb4e7c2ebfcbcaee8457608b&timestamp=1471492361&nonce=163538585&openid=oAl9FwhCp2LChUx8LWxYcbsYkzSQ&encrypt_type=aes&msg_signature=022cb933e44c2d8d64f5036a002078aacdfa5613
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.000975s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001271s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000551s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000627s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.0008s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE `status` = 1  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: echostr /alidata/www/gongfo/Application/Weixin/Controller/IndexController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: content /alidata/www/gongfo/Application/Weixin/Controller/IndexController.class.php 第 191 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000391s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000444s ]
+
+[ 2016-08-18T11:52:46+08:00 ] 140.207.54.75 /Weixin/Index/validate.html?signature=45928b21599061a9b0451837d0db96b85192e297&timestamp=1471492366&nonce=1822449628&openid=oAl9FwhCp2LChUx8LWxYcbsYkzSQ&encrypt_type=aes&msg_signature=329baab9c59b177e54c4a4d1bbbf7366191a91b1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.000969s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001255s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000325s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000365s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.0008s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE `status` = 1  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: echostr /alidata/www/gongfo/Application/Weixin/Controller/IndexController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: content /alidata/www/gongfo/Application/Weixin/Controller/IndexController.class.php 第 191 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000401s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000442s ]
+
+[ 2016-08-18T12:01:04+08:00 ] 219.133.40.16 /index.php?s=/Weixin/Index/getopenid.html&page=index&code=021Gpefa1MQEaU1vIbfa1RSgfa1Gpefw&state=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.000935s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001244s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000325s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000364s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.0008s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE `status` = 1  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `onethink_user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `onethink_user` WHERE ( openid='oAl9FwhCp2LChUx8LWxYcbsYkzSQ' )  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000521s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000573s ]
+
+[ 2016-08-18T12:01:05+08:00 ] 219.133.40.16 /index.php?s=/Weixin/Index/index.html&openid=oAl9FwhCp2LChUx8LWxYcbsYkzSQ
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.000954s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001252s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000361s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000401s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.0008s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE `status` = 1  [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant d - assumed 'd' /alidata/www/gongfo/Application/Weixin/Controller/IndexController.class.php 第 205 行.
+SQL: SHOW COLUMNS FROM `onethink_record` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `onethink_record` WHERE ( openid='oAl9FwhCp2LChUx8LWxYcbsYkzSQ' ) ORDER BY id desc LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000104s ]
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST with value 1 is deprecated and will be removed as of libcurl 7.28.1. It is recommended to use value 2 instead /alidata/www/gongfo/Application/Common/Common/jssdk.php 第 101 行.
+NOTIC: [2] fopen(jsapi_ticket.php): failed to open stream: Permission denied /alidata/www/gongfo/Application/Common/Common/jssdk.php 第 114 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given /alidata/www/gongfo/Application/Common/Common/jssdk.php 第 115 行.
+NOTIC: [2] fclose() expects parameter 1 to be resource, boolean given /alidata/www/gongfo/Application/Common/Common/jssdk.php 第 116 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.152792s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.152845s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000228s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000264s ]
+SQL: SHOW COLUMNS FROM `onethink_user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `onethink_user` WHERE ( openid='oAl9FwhCp2LChUx8LWxYcbsYkzSQ' )  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000427s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000466s ]
+
+[ 2016-08-18T12:48:31+08:00 ] 140.207.54.73 /Weixin/Index/validate.html?signature=bbea0eacb5352547a7e3ae0d370aac782c5bab0e&timestamp=1471495711&nonce=1952482596&openid=oAl9FwjHyhsq4tnfBrAKxFFN7i2E&encrypt_type=aes&msg_signature=f959e6a211bea93635783f439991e0b580ab8605
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.000968s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001271s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000336s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000399s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.0008s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE `status` = 1  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: echostr /alidata/www/gongfo/Application/Weixin/Controller/IndexController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: content /alidata/www/gongfo/Application/Weixin/Controller/IndexController.class.php 第 191 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000377s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000417s ]
+
+[ 2016-08-18T17:06:53+08:00 ] 219.133.40.13 /index.php?s=/Weixin/Index/index.html&openid=oAl9FwhCp2LChUx8LWxYcbsYkzSQ&from=singlemessage&isappinstalled=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001319s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000343s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000384s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.0008s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE `status` = 1  [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant d - assumed 'd' /alidata/www/gongfo/Application/Weixin/Controller/IndexController.class.php 第 205 行.
+SQL: SHOW COLUMNS FROM `onethink_record` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `onethink_record` WHERE ( openid='oAl9FwhCp2LChUx8LWxYcbsYkzSQ' ) ORDER BY id desc LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000062s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000104s ]
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST with value 1 is deprecated and will be removed as of libcurl 7.28.1. It is recommended to use value 2 instead /alidata/www/gongfo/Application/Common/Common/jssdk.php 第 101 行.
+NOTIC: [2] fopen(jsapi_ticket.php): failed to open stream: Permission denied /alidata/www/gongfo/Application/Common/Common/jssdk.php 第 114 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given /alidata/www/gongfo/Application/Common/Common/jssdk.php 第 115 行.
+NOTIC: [2] fclose() expects parameter 1 to be resource, boolean given /alidata/www/gongfo/Application/Common/Common/jssdk.php 第 116 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.144029s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.144082s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000225s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000260s ]
+SQL: SHOW COLUMNS FROM `onethink_user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `onethink_user` WHERE ( openid='oAl9FwhCp2LChUx8LWxYcbsYkzSQ' )  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000432s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000469s ]
+
+[ 2016-08-18T17:07:10+08:00 ] 219.133.40.13 /index.php?s=/Weixin/Index/index.html&openid=oAl9FwhCp2LChUx8LWxYcbsYkzSQ&from=singlemessage&isappinstalled=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001296s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000327s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000372s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.0008s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE `status` = 1  [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant d - assumed 'd' /alidata/www/gongfo/Application/Weixin/Controller/IndexController.class.php 第 205 行.
+SQL: SHOW COLUMNS FROM `onethink_record` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `onethink_record` WHERE ( openid='oAl9FwhCp2LChUx8LWxYcbsYkzSQ' ) ORDER BY id desc LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000116s ]
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST with value 1 is deprecated and will be removed as of libcurl 7.28.1. It is recommended to use value 2 instead /alidata/www/gongfo/Application/Common/Common/jssdk.php 第 101 行.
+NOTIC: [2] fopen(jsapi_ticket.php): failed to open stream: Permission denied /alidata/www/gongfo/Application/Common/Common/jssdk.php 第 114 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given /alidata/www/gongfo/Application/Common/Common/jssdk.php 第 115 行.
+NOTIC: [2] fclose() expects parameter 1 to be resource, boolean given /alidata/www/gongfo/Application/Common/Common/jssdk.php 第 116 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.120125s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.120194s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000268s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000330s ]
+SQL: SHOW COLUMNS FROM `onethink_user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `onethink_user` WHERE ( openid='oAl9FwhCp2LChUx8LWxYcbsYkzSQ' )  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000441s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000479s ]
+
+[ 2016-08-18T17:07:21+08:00 ] 219.133.40.13 /index.php?s=/Weixin/Index/tribute/openid/oAl9FwhCp2LChUx8LWxYcbsYkzSQ.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.000965s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001273s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000371s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000412s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.0008s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE `status` = 1  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `onethink_hp` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `onethink_hp` ORDER BY id asc  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `onethink_xl` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `onethink_xl` ORDER BY id asc  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `onethink_gp` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `onethink_gp` ORDER BY id asc  [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant d - assumed 'd' /alidata/www/gongfo/Application/Weixin/Controller/IndexController.class.php 第 337 行.
+SQL: SHOW COLUMNS FROM `onethink_record` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `onethink_record` WHERE ( openid='oAl9FwhCp2LChUx8LWxYcbsYkzSQ' ) ORDER BY id desc LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000059s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000105s ]
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST with value 1 is deprecated and will be removed as of libcurl 7.28.1. It is recommended to use value 2 instead /alidata/www/gongfo/Application/Common/Common/jssdk.php 第 101 行.
+NOTIC: [2] fopen(jsapi_ticket.php): failed to open stream: Permission denied /alidata/www/gongfo/Application/Common/Common/jssdk.php 第 114 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given /alidata/www/gongfo/Application/Common/Common/jssdk.php 第 115 行.
+NOTIC: [2] fclose() expects parameter 1 to be resource, boolean given /alidata/www/gongfo/Application/Common/Common/jssdk.php 第 116 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.129420s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.129490s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000291s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000349s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000651s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000716s ]
+
+[ 2016-08-18T17:09:59+08:00 ] 180.153.211.172 /index.php?s=/Weixin/Index/index.html&openid=oAl9FwhCp2LChUx8LWxYcbsYkzSQ&from=singlemessage&isappinstalled=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.000991s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001285s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000338s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000389s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.0010s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE `status` = 1  [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant d - assumed 'd' /alidata/www/gongfo/Application/Weixin/Controller/IndexController.class.php 第 205 行.
+SQL: SHOW COLUMNS FROM `onethink_record` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `onethink_record` WHERE ( openid='oAl9FwhCp2LChUx8LWxYcbsYkzSQ' ) ORDER BY id desc LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000062s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000108s ]
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST with value 1 is deprecated and will be removed as of libcurl 7.28.1. It is recommended to use value 2 instead /alidata/www/gongfo/Application/Common/Common/jssdk.php 第 101 行.
+NOTIC: [2] fopen(jsapi_ticket.php): failed to open stream: Permission denied /alidata/www/gongfo/Application/Common/Common/jssdk.php 第 114 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given /alidata/www/gongfo/Application/Common/Common/jssdk.php 第 115 行.
+NOTIC: [2] fclose() expects parameter 1 to be resource, boolean given /alidata/www/gongfo/Application/Common/Common/jssdk.php 第 116 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.124640s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.124692s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000227s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000263s ]
+SQL: SHOW COLUMNS FROM `onethink_user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `onethink_user` WHERE ( openid='oAl9FwhCp2LChUx8LWxYcbsYkzSQ' )  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000444s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000483s ]
+
+[ 2016-08-18T17:10:27+08:00 ] 101.226.33.238 /index.php?s=/Weixin/Index/tribute/openid/oAl9FwhCp2LChUx8LWxYcbsYkzSQ.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.000981s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001279s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000334s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000374s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.0008s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE `status` = 1  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `onethink_hp` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `onethink_hp` ORDER BY id asc  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `onethink_xl` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `onethink_xl` ORDER BY id asc  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `onethink_gp` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `onethink_gp` ORDER BY id asc  [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant d - assumed 'd' /alidata/www/gongfo/Application/Weixin/Controller/IndexController.class.php 第 337 行.
+SQL: SHOW COLUMNS FROM `onethink_record` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `onethink_record` WHERE ( openid='oAl9FwhCp2LChUx8LWxYcbsYkzSQ' ) ORDER BY id desc LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000108s ]
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST with value 1 is deprecated and will be removed as of libcurl 7.28.1. It is recommended to use value 2 instead /alidata/www/gongfo/Application/Common/Common/jssdk.php 第 101 行.
+NOTIC: [2] fopen(jsapi_ticket.php): failed to open stream: Permission denied /alidata/www/gongfo/Application/Common/Common/jssdk.php 第 114 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given /alidata/www/gongfo/Application/Common/Common/jssdk.php 第 115 行.
+NOTIC: [2] fclose() expects parameter 1 to be resource, boolean given /alidata/www/gongfo/Application/Common/Common/jssdk.php 第 116 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.342615s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.342666s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000226s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000284s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000415s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000452s ]
+
+[ 2016-08-18T19:21:30+08:00 ] 39.177.139.35 /index.php?s=/Weixin/Index/record/openid/oAl9Fwr4xDrKG5N_fik3Q5N-DCQ0.html&from=singlemessage&isappinstalled=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.000944s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001252s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000415s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000459s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.0008s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE `status` = 1  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `onethink_record` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `onethink_record` WHERE ( openid='oAl9Fwr4xDrKG5N_fik3Q5N-DCQ0' ) ORDER BY id desc  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000080s ]
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST with value 1 is deprecated and will be removed as of libcurl 7.28.1. It is recommended to use value 2 instead /alidata/www/gongfo/Application/Common/Common/jssdk.php 第 101 行.
+NOTIC: [2] fopen(jsapi_ticket.php): failed to open stream: Permission denied /alidata/www/gongfo/Application/Common/Common/jssdk.php 第 114 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given /alidata/www/gongfo/Application/Common/Common/jssdk.php 第 115 行.
+NOTIC: [2] fclose() expects parameter 1 to be resource, boolean given /alidata/www/gongfo/Application/Common/Common/jssdk.php 第 116 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.301440s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.301491s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000242s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000279s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000442s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000490s ]
+
+[ 2016-08-18T19:21:34+08:00 ] 39.177.139.35 /index.php?s=/Weixin/Index/index/openid/oAl9Fwr4xDrKG5N_fik3Q5N-DCQ0.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.000934s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001219s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000325s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000370s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.0008s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE `status` = 1  [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant d - assumed 'd' /alidata/www/gongfo/Application/Weixin/Controller/IndexController.class.php 第 205 行.
+SQL: SHOW COLUMNS FROM `onethink_record` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `onethink_record` WHERE ( openid='oAl9Fwr4xDrKG5N_fik3Q5N-DCQ0' ) ORDER BY id desc LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000081s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000128s ]
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST with value 1 is deprecated and will be removed as of libcurl 7.28.1. It is recommended to use value 2 instead /alidata/www/gongfo/Application/Common/Common/jssdk.php 第 101 行.
+NOTIC: [2] fopen(jsapi_ticket.php): failed to open stream: Permission denied /alidata/www/gongfo/Application/Common/Common/jssdk.php 第 114 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given /alidata/www/gongfo/Application/Common/Common/jssdk.php 第 115 行.
+NOTIC: [2] fclose() expects parameter 1 to be resource, boolean given /alidata/www/gongfo/Application/Common/Common/jssdk.php 第 116 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.155296s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.155349s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000259s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000296s ]
+SQL: SHOW COLUMNS FROM `onethink_user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `onethink_user` WHERE ( openid='oAl9Fwr4xDrKG5N_fik3Q5N-DCQ0' )  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000461s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000499s ]
+
+[ 2016-08-18T19:21:41+08:00 ] 39.177.139.35 /index.php?s=/Weixin/Index/index/openid/oAl9Fwr4xDrKG5N_fik3Q5N-DCQ0.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001365s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000357s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000398s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.0008s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE `status` = 1  [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant d - assumed 'd' /alidata/www/gongfo/Application/Weixin/Controller/IndexController.class.php 第 205 行.
+SQL: SHOW COLUMNS FROM `onethink_record` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `onethink_record` WHERE ( openid='oAl9Fwr4xDrKG5N_fik3Q5N-DCQ0' ) ORDER BY id desc LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000122s ]
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST with value 1 is deprecated and will be removed as of libcurl 7.28.1. It is recommended to use value 2 instead /alidata/www/gongfo/Application/Common/Common/jssdk.php 第 101 行.
+NOTIC: [2] fopen(jsapi_ticket.php): failed to open stream: Permission denied /alidata/www/gongfo/Application/Common/Common/jssdk.php 第 114 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given /alidata/www/gongfo/Application/Common/Common/jssdk.php 第 115 行.
+NOTIC: [2] fclose() expects parameter 1 to be resource, boolean given /alidata/www/gongfo/Application/Common/Common/jssdk.php 第 116 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.127286s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.127340s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000242s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000278s ]
+SQL: SHOW COLUMNS FROM `onethink_user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `onethink_user` WHERE ( openid='oAl9Fwr4xDrKG5N_fik3Q5N-DCQ0' )  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000454s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000492s ]
+
+[ 2016-08-18T19:44:41+08:00 ] 58.247.206.154 /Weixin/Index/validate.html?signature=ceead5be317ae152c880a9e60b938c224fb4f558&timestamp=1471520680&nonce=1823023564&openid=oAl9FwjCWJWL13Ysr9rltPhAHXdk&encrypt_type=aes&msg_signature=b19fa739aa63b6beb631be367bf2177a3866caf6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.000928s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001261s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000320s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000360s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.0008s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE `status` = 1  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: echostr /alidata/www/gongfo/Application/Weixin/Controller/IndexController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: content /alidata/www/gongfo/Application/Weixin/Controller/IndexController.class.php 第 191 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000389s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000429s ]
+
+[ 2016-08-18T19:44:41+08:00 ] 123.151.42.52 /index.php?s=/Weixin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.000908s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001228s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000318s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000358s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.0011s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE `status` = 1  [ RunTime:0.0004s ]
+
+[ 2016-08-18T19:44:44+08:00 ] 123.151.42.52 /index.php?s=/Weixin/Index/getopenid.html&page=index&code=041NM2w52uuIKG0h4Sx52iv5w52NM2wV&state=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001346s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000321s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000361s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.0008s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE `status` = 1  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `onethink_user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `onethink_user` WHERE ( openid='oAl9FwjCWJWL13Ysr9rltPhAHXdk' )  [ RunTime:0.0003s ]
+SQL: insert into onethink_user(openid,nickname,headimgurl) value('oAl9FwjCWJWL13Ysr9rltPhAHXdk','赵洪喜（幸福男人）','http://wx.qlogo.cn/mmopen/TTQibyKjrickynibjtFPEmd34TvGRAZDYwFOVugS7ibMxdfcjOTwust0AACrFoXlzCJ2fJ0ftmxBcZTJP2Vp0dibkonex8AFkgoe0/0') [ RunTime:0.0254s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000548s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000606s ]
+
+[ 2016-08-18T19:44:44+08:00 ] 123.151.42.52 /index.php?s=/Weixin/Index/index.html&openid=oAl9FwjCWJWL13Ysr9rltPhAHXdk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.000941s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001225s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000345s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000386s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.0008s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE `status` = 1  [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant d - assumed 'd' /alidata/www/gongfo/Application/Weixin/Controller/IndexController.class.php 第 205 行.
+SQL: SHOW COLUMNS FROM `onethink_record` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `onethink_record` WHERE ( openid='oAl9FwjCWJWL13Ysr9rltPhAHXdk' ) ORDER BY id desc LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000070s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000140s ]
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST with value 1 is deprecated and will be removed as of libcurl 7.28.1. It is recommended to use value 2 instead /alidata/www/gongfo/Application/Common/Common/jssdk.php 第 101 行.
+NOTIC: [2] fopen(jsapi_ticket.php): failed to open stream: Permission denied /alidata/www/gongfo/Application/Common/Common/jssdk.php 第 114 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given /alidata/www/gongfo/Application/Common/Common/jssdk.php 第 115 行.
+NOTIC: [2] fclose() expects parameter 1 to be resource, boolean given /alidata/www/gongfo/Application/Common/Common/jssdk.php 第 116 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.151737s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.151791s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000227s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000263s ]
+SQL: SHOW COLUMNS FROM `onethink_user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `onethink_user` WHERE ( openid='oAl9FwjCWJWL13Ysr9rltPhAHXdk' )  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000473s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000513s ]
+
+[ 2016-08-18T19:44:49+08:00 ] 123.151.42.52 /index.php?s=/Weixin/Index/tribute/openid/oAl9FwjCWJWL13Ysr9rltPhAHXdk.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.000991s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001275s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000329s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000369s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.0008s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE `status` = 1  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `onethink_hp` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `onethink_hp` ORDER BY id asc  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `onethink_xl` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `onethink_xl` ORDER BY id asc  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `onethink_gp` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `onethink_gp` ORDER BY id asc  [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant d - assumed 'd' /alidata/www/gongfo/Application/Weixin/Controller/IndexController.class.php 第 337 行.
+SQL: SHOW COLUMNS FROM `onethink_record` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `onethink_record` WHERE ( openid='oAl9FwjCWJWL13Ysr9rltPhAHXdk' ) ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000097s ]
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST with value 1 is deprecated and will be removed as of libcurl 7.28.1. It is recommended to use value 2 instead /alidata/www/gongfo/Application/Common/Common/jssdk.php 第 101 行.
+NOTIC: [2] fopen(jsapi_ticket.php): failed to open stream: Permission denied /alidata/www/gongfo/Application/Common/Common/jssdk.php 第 114 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given /alidata/www/gongfo/Application/Common/Common/jssdk.php 第 115 行.
+NOTIC: [2] fclose() expects parameter 1 to be resource, boolean given /alidata/www/gongfo/Application/Common/Common/jssdk.php 第 116 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.131774s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.131825s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000225s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000260s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000413s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000472s ]
+
+[ 2016-08-18T19:44:55+08:00 ] 123.151.42.52 /index.php?s=/Weixin/Index/dorecord.html&hpno=1&xlno=1&gpno=1&openid=oAl9FwjCWJWL13Ysr9rltPhAHXdk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.000954s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001247s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000333s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000373s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.0008s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE `status` = 1  [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant d - assumed 'd' /alidata/www/gongfo/Application/Weixin/Controller/IndexController.class.php 第 384 行.
+SQL: SHOW COLUMNS FROM `onethink_record` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `onethink_record` WHERE ( openid='oAl9FwjCWJWL13Ysr9rltPhAHXdk' ) ORDER BY id desc LIMIT 1   [ RunTime:0.0003s ]
+SQL: insert into onethink_record(openid,hpno,xlno,gpno) value('oAl9FwjCWJWL13Ysr9rltPhAHXdk','1','1','1') [ RunTime:0.0080s ]
+NOTIC: [8] Use of undefined constant recordtime - assumed 'recordtime' /alidata/www/gongfo/Application/Weixin/Controller/IndexController.class.php 第 393 行.
+SQL: SHOW COLUMNS FROM `onethink_user` [ RunTime:0.0006s ]
+SQL: UPDATE `onethink_user` SET `recordtime`='2016-08-18 19:44:55' WHERE ( openid='oAl9FwjCWJWL13Ysr9rltPhAHXdk' ) [ RunTime:0.0066s ]
+NOTIC: [8] Undefined variable: url /alidata/www/gongfo/Application/Weixin/Controller/IndexController.class.php 第 395 行.
+
+[ 2016-08-18T19:44:56+08:00 ] 123.151.42.52 /index.php?s=/Weixin/Index/change.html&recordid=0&openid=oAl9FwjCWJWL13Ysr9rltPhAHXdk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.000996s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001363s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000429s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000469s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.0008s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE `status` = 1  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000092s ]
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST with value 1 is deprecated and will be removed as of libcurl 7.28.1. It is recommended to use value 2 instead /alidata/www/gongfo/Application/Common/Common/jssdk.php 第 101 行.
+NOTIC: [2] fopen(jsapi_ticket.php): failed to open stream: Permission denied /alidata/www/gongfo/Application/Common/Common/jssdk.php 第 114 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given /alidata/www/gongfo/Application/Common/Common/jssdk.php 第 115 行.
+NOTIC: [2] fclose() expects parameter 1 to be resource, boolean given /alidata/www/gongfo/Application/Common/Common/jssdk.php 第 116 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.140614s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.140667s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000231s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000267s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000443s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000479s ]
+
+[ 2016-08-18T19:44:58+08:00 ] 123.151.42.52 /index.php?s=/Weixin/Index/back/openid/oAl9FwjCWJWL13Ysr9rltPhAHXdk/recordid/0.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001299s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000328s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000367s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.0008s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE `status` = 1  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000070s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000126s ]
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST with value 1 is deprecated and will be removed as of libcurl 7.28.1. It is recommended to use value 2 instead /alidata/www/gongfo/Application/Common/Common/jssdk.php 第 101 行.
+NOTIC: [2] fopen(jsapi_ticket.php): failed to open stream: Permission denied /alidata/www/gongfo/Application/Common/Common/jssdk.php 第 114 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given /alidata/www/gongfo/Application/Common/Common/jssdk.php 第 115 行.
+NOTIC: [2] fclose() expects parameter 1 to be resource, boolean given /alidata/www/gongfo/Application/Common/Common/jssdk.php 第 116 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.120980s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.121031s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000229s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000265s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000440s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000477s ]
+
+[ 2016-08-18T19:45:18+08:00 ] 123.151.42.52 /index.php?s=/Weixin/Index/doback.html&recordid=0&openid=oAl9FwjCWJWL13Ysr9rltPhAHXdk&fromname=&toname=%E5%A8%91%E5%A9%86%E4%B8%96%E7%95%8C%E7%9A%84%E6%89%80%E6%9C%89%E8%8B%A6%E9%9A%BE%E4%BC%97%E7%94%9F&hope=%E6%97%A9%E6%97%A5%E7%A6%BB%E8%8B%A6%E5%BE%97%E4%B9%90%EF%BC%8C%E4%BF%AE%E6%88%90%E4%BD%9B%E9%81%93%EF%BC%8C%E5%BE%80%E7%94%9F%E6%9E%81%E4%B9%90%E4%B8%96%E7%95%8C
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.000936s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001252s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000330s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000369s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.0009s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE `status` = 1  [ RunTime:0.0003s ]
+SQL: update onethink_record set fromname='' where id='0' [ RunTime:0.0003s ]
+SQL: update onethink_record set toname='娑婆世界的所有苦难众生' where id='0' [ RunTime:0.0002s ]
+SQL: update onethink_record set hope='早日离苦得乐，修成佛道，往生极乐世界' where id='0' [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000050s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000093s ]
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST with value 1 is deprecated and will be removed as of libcurl 7.28.1. It is recommended to use value 2 instead /alidata/www/gongfo/Application/Common/Common/jssdk.php 第 101 行.
+NOTIC: [2] fopen(jsapi_ticket.php): failed to open stream: Permission denied /alidata/www/gongfo/Application/Common/Common/jssdk.php 第 114 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given /alidata/www/gongfo/Application/Common/Common/jssdk.php 第 115 行.
+NOTIC: [2] fclose() expects parameter 1 to be resource, boolean given /alidata/www/gongfo/Application/Common/Common/jssdk.php 第 116 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.135544s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.135609s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000274s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000328s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000641s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000698s ]
+
+[ 2016-08-18T19:45:30+08:00 ] 123.151.42.52 /index.php?s=/Weixin/Index/record/openid/oAl9FwjCWJWL13Ysr9rltPhAHXdk.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.000939s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001223s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000330s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000371s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.0008s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE `status` = 1  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `onethink_record` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `onethink_record` WHERE ( openid='oAl9FwjCWJWL13Ysr9rltPhAHXdk' ) ORDER BY id desc  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000053s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000092s ]
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST with value 1 is deprecated and will be removed as of libcurl 7.28.1. It is recommended to use value 2 instead /alidata/www/gongfo/Application/Common/Common/jssdk.php 第 101 行.
+NOTIC: [2] fopen(jsapi_ticket.php): failed to open stream: Permission denied /alidata/www/gongfo/Application/Common/Common/jssdk.php 第 114 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given /alidata/www/gongfo/Application/Common/Common/jssdk.php 第 115 行.
+NOTIC: [2] fclose() expects parameter 1 to be resource, boolean given /alidata/www/gongfo/Application/Common/Common/jssdk.php 第 116 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.129016s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.129070s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000234s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000270s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000477s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000515s ]
+
+[ 2016-08-18T19:47:48+08:00 ] 101.226.125.16 /index.php?s=/Weixin/Index/tribute/openid/oAl9FwjCWJWL13Ysr9rltPhAHXdk.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.000958s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001250s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000329s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000369s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.0008s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE `status` = 1  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `onethink_hp` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `onethink_hp` ORDER BY id asc  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `onethink_xl` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `onethink_xl` ORDER BY id asc  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `onethink_gp` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `onethink_gp` ORDER BY id asc  [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant d - assumed 'd' /alidata/www/gongfo/Application/Weixin/Controller/IndexController.class.php 第 337 行.
+SQL: SHOW COLUMNS FROM `onethink_record` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `onethink_record` WHERE ( openid='oAl9FwjCWJWL13Ysr9rltPhAHXdk' ) ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000098s ]
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST with value 1 is deprecated and will be removed as of libcurl 7.28.1. It is recommended to use value 2 instead /alidata/www/gongfo/Application/Common/Common/jssdk.php 第 101 行.
+NOTIC: [2] fopen(jsapi_ticket.php): failed to open stream: Permission denied /alidata/www/gongfo/Application/Common/Common/jssdk.php 第 114 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given /alidata/www/gongfo/Application/Common/Common/jssdk.php 第 115 行.
+NOTIC: [2] fclose() expects parameter 1 to be resource, boolean given /alidata/www/gongfo/Application/Common/Common/jssdk.php 第 116 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.147032s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.147086s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000250s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000286s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000415s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000454s ]
+
+[ 2016-08-18T19:47:50+08:00 ] 101.226.51.227 /index.php?s=/Weixin/Index/getopenid.html&page=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.000986s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001278s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000332s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000372s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.0008s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE `status` = 1  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000081s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005177s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005225s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000107s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000141s ]
+
+[ 2016-08-18T19:47:54+08:00 ] 180.153.163.190 /index.php?s=/Weixin/Index/index.html&openid=oAl9FwjCWJWL13Ysr9rltPhAHXdk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001331s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000550s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000619s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.0011s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE `status` = 1  [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant d - assumed 'd' /alidata/www/gongfo/Application/Weixin/Controller/IndexController.class.php 第 205 行.
+SQL: SHOW COLUMNS FROM `onethink_record` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `onethink_record` WHERE ( openid='oAl9FwjCWJWL13Ysr9rltPhAHXdk' ) ORDER BY id desc LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000057s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000097s ]
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST with value 1 is deprecated and will be removed as of libcurl 7.28.1. It is recommended to use value 2 instead /alidata/www/gongfo/Application/Common/Common/jssdk.php 第 101 行.
+NOTIC: [2] fopen(jsapi_ticket.php): failed to open stream: Permission denied /alidata/www/gongfo/Application/Common/Common/jssdk.php 第 114 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given /alidata/www/gongfo/Application/Common/Common/jssdk.php 第 115 行.
+NOTIC: [2] fclose() expects parameter 1 to be resource, boolean given /alidata/www/gongfo/Application/Common/Common/jssdk.php 第 116 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.138950s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.139019s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000306s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000360s ]
+SQL: SHOW COLUMNS FROM `onethink_user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `onethink_user` WHERE ( openid='oAl9FwjCWJWL13Ysr9rltPhAHXdk' )  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000576s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000625s ]
+
+[ 2016-08-18T19:47:55+08:00 ] 117.185.27.115 /index.php?s=/Weixin/Index/dorecord.html&hpno=1&xlno=1&gpno=1&openid=oAl9FwjCWJWL13Ysr9rltPhAHXdk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.000990s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001327s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000366s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000406s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.0010s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE `status` = 1  [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant d - assumed 'd' /alidata/www/gongfo/Application/Weixin/Controller/IndexController.class.php 第 384 行.
+SQL: SHOW COLUMNS FROM `onethink_record` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `onethink_record` WHERE ( openid='oAl9FwjCWJWL13Ysr9rltPhAHXdk' ) ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: insertid /alidata/www/gongfo/Application/Weixin/Controller/IndexController.class.php 第 406 行.
+NOTIC: [8] Undefined variable: url /alidata/www/gongfo/Application/Weixin/Controller/IndexController.class.php 第 406 行.
+
+[ 2016-08-18T19:47:55+08:00 ] 117.185.27.115 /index.php?s=/Weixin/Index/change.html&recordid=&openid=oAl9FwjCWJWL13Ysr9rltPhAHXdk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.000947s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001315s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000350s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000390s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.0008s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE `status` = 1  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000098s ]
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST with value 1 is deprecated and will be removed as of libcurl 7.28.1. It is recommended to use value 2 instead /alidata/www/gongfo/Application/Common/Common/jssdk.php 第 101 行.
+NOTIC: [2] fopen(jsapi_ticket.php): failed to open stream: Permission denied /alidata/www/gongfo/Application/Common/Common/jssdk.php 第 114 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given /alidata/www/gongfo/Application/Common/Common/jssdk.php 第 115 行.
+NOTIC: [2] fclose() expects parameter 1 to be resource, boolean given /alidata/www/gongfo/Application/Common/Common/jssdk.php 第 116 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.130853s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.130906s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000252s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000288s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000423s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000461s ]
+
+[ 2016-08-18T19:48:02+08:00 ] 101.226.79.182 /index.php?s=/Weixin/Index/dorecord.html&hpno=1&xlno=1&gpno=1&openid=oAl9FwjCWJWL13Ysr9rltPhAHXdk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.000970s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001282s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000343s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000383s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.0008s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE `status` = 1  [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant d - assumed 'd' /alidata/www/gongfo/Application/Weixin/Controller/IndexController.class.php 第 384 行.
+SQL: SHOW COLUMNS FROM `onethink_record` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `onethink_record` WHERE ( openid='oAl9FwjCWJWL13Ysr9rltPhAHXdk' ) ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: insertid /alidata/www/gongfo/Application/Weixin/Controller/IndexController.class.php 第 406 行.
+NOTIC: [8] Undefined variable: url /alidata/www/gongfo/Application/Weixin/Controller/IndexController.class.php 第 406 行.
+
+[ 2016-08-18T19:48:02+08:00 ] 101.226.79.182 /index.php?s=/Weixin/Index/change.html&recordid=&openid=oAl9FwjCWJWL13Ysr9rltPhAHXdk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.000949s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001243s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000331s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000372s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.0010s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE `status` = 1  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000093s ]
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST with value 1 is deprecated and will be removed as of libcurl 7.28.1. It is recommended to use value 2 instead /alidata/www/gongfo/Application/Common/Common/jssdk.php 第 101 行.
+NOTIC: [2] fopen(jsapi_ticket.php): failed to open stream: Permission denied /alidata/www/gongfo/Application/Common/Common/jssdk.php 第 114 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given /alidata/www/gongfo/Application/Common/Common/jssdk.php 第 115 行.
+NOTIC: [2] fclose() expects parameter 1 to be resource, boolean given /alidata/www/gongfo/Application/Common/Common/jssdk.php 第 116 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.146362s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.146419s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000229s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000265s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000445s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000481s ]
+
+[ 2016-08-18T19:48:03+08:00 ] 101.226.51.229 /index.php?s=/Weixin/Index/back/openid/oAl9FwjCWJWL13Ysr9rltPhAHXdk/recordid/0.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.000978s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001299s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000438s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000485s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.0008s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE `status` = 1  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000120s ]
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST with value 1 is deprecated and will be removed as of libcurl 7.28.1. It is recommended to use value 2 instead /alidata/www/gongfo/Application/Common/Common/jssdk.php 第 101 行.
+NOTIC: [2] fopen(jsapi_ticket.php): failed to open stream: Permission denied /alidata/www/gongfo/Application/Common/Common/jssdk.php 第 114 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given /alidata/www/gongfo/Application/Common/Common/jssdk.php 第 115 行.
+NOTIC: [2] fclose() expects parameter 1 to be resource, boolean given /alidata/www/gongfo/Application/Common/Common/jssdk.php 第 116 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.137781s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.137855s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000222s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000259s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000410s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000447s ]
+
+[ 2016-08-18T19:48:03+08:00 ] 180.153.206.16 /index.php?s=/Weixin/Index/change.html&recordid=0&openid=oAl9FwjCWJWL13Ysr9rltPhAHXdk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001338s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000347s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000386s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.0010s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE `status` = 1  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000091s ]
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST with value 1 is deprecated and will be removed as of libcurl 7.28.1. It is recommended to use value 2 instead /alidata/www/gongfo/Application/Common/Common/jssdk.php 第 101 行.
+NOTIC: [2] fopen(jsapi_ticket.php): failed to open stream: Permission denied /alidata/www/gongfo/Application/Common/Common/jssdk.php 第 114 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given /alidata/www/gongfo/Application/Common/Common/jssdk.php 第 115 行.
+NOTIC: [2] fclose() expects parameter 1 to be resource, boolean given /alidata/www/gongfo/Application/Common/Common/jssdk.php 第 116 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.121183s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.121236s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000224s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000259s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000413s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000448s ]
+
+[ 2016-08-18T21:03:53+08:00 ] 101.226.125.100 /index.php?s=/Weixin/Index/getopenid.html&page=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.000980s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001298s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000355s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000396s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.0008s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE `status` = 1  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000038s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000077s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005910s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005970s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000118s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000150s ]
+
+[ 2016-08-18T21:48:28+08:00 ] 140.207.54.80 /Weixin/Index/validate.html?signature=01a42f2d7bc4a9644be11abb256efcc9e715213f&timestamp=1471528108&nonce=53293770&openid=oAl9FwtOBuSTNJUurPUMggyQef40&encrypt_type=aes&msg_signature=2656d978a15ce85d6dc4f409249d79ac1bfa882c
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.000942s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001229s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000325s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000366s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.0008s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE `status` = 1  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: echostr /alidata/www/gongfo/Application/Weixin/Controller/IndexController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: content /alidata/www/gongfo/Application/Weixin/Controller/IndexController.class.php 第 191 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000606s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000676s ]
+
+[ 2016-08-18T21:48:29+08:00 ] 223.210.172.74 /index.php?s=/Weixin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.000942s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001249s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000337s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000377s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.0008s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE `status` = 1  [ RunTime:0.0003s ]
+
+[ 2016-08-18T21:49:03+08:00 ] 140.207.54.78 /Weixin/Index/validate.html?signature=73c9fd2ff82673e88d11ac276c6f475d53b912e2&timestamp=1471528143&nonce=1901329763&openid=oAl9FwtOBuSTNJUurPUMggyQef40&encrypt_type=aes&msg_signature=369d64700ac41840de81d1a94e12cddb6c869ce4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001341s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000355s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000396s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.0008s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE `status` = 1  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: echostr /alidata/www/gongfo/Application/Weixin/Controller/IndexController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: content /alidata/www/gongfo/Application/Weixin/Controller/IndexController.class.php 第 191 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000381s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000422s ]
+
+[ 2016-08-18T21:49:07+08:00 ] 223.210.172.74 /index.php?s=/Weixin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.000940s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001257s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000326s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000387s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.0009s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE `status` = 1  [ RunTime:0.0003s ]
+
+[ 2016-08-18T21:49:09+08:00 ] 140.207.54.80 /Weixin/Index/validate.html?signature=52eff86fcc37efa3b5ed475a87c02b81d6a5e60a&timestamp=1471528146&nonce=1217771212&openid=oAl9FwtOBuSTNJUurPUMggyQef40&encrypt_type=aes&msg_signature=84916233c0a34e55118dee716cba983f86e61413
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.000994s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001321s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000367s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000409s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.0008s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE `status` = 1  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: echostr /alidata/www/gongfo/Application/Weixin/Controller/IndexController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: content /alidata/www/gongfo/Application/Weixin/Controller/IndexController.class.php 第 191 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000389s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000430s ]
+
+[ 2016-08-18T21:49:53+08:00 ] 140.207.54.80 /Weixin/Index/validate.html?signature=584854058b0561ee746bb9f540cb3f63c6b7fd44&timestamp=1471528193&nonce=1407559616&openid=oAl9FwtOBuSTNJUurPUMggyQef40&encrypt_type=aes&msg_signature=b5a862bcf3b3d51085f0cca6c10325dd27ea9eba
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.000963s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001260s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000326s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000366s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.0008s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE `status` = 1  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: echostr /alidata/www/gongfo/Application/Weixin/Controller/IndexController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: content /alidata/www/gongfo/Application/Weixin/Controller/IndexController.class.php 第 191 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000398s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000440s ]
+
+[ 2016-08-18T21:51:35+08:00 ] 101.226.125.16 /index.php?s=/Weixin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.000959s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001249s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000327s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000367s ]
+SQL: SHOW COLUMNS FROM `onethink_config` [ RunTime:0.0008s ]
+SQL: SELECT `type`,`name`,`value` FROM `onethink_config` WHERE `status` = 1  [ RunTime:0.0003s ]
+

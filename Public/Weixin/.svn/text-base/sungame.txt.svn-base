@@ -1,0 +1,39 @@
+create table userlist (	
+    `userid` int(11) not null auto_increment,	
+    `openid` varchar(32) default null,	
+	`name` varchar(32) default null,	
+	`icon` text default null,	
+    primary key(userid)	
+    )charset=utf8;	
+	
+create table sunlist (	
+    `userid` int(11) default null,
+    `sun` int(32) default null,
+	`mytime`  timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP
+    )charset=utf8;	
+	
+create table helplist (	
+    `userid` int(11) default null,
+    `helpid` int(11) default null
+    )charset=utf8;	
+	
+create table shoplist (	
+    `shopid` int(11) not null auto_increment,
+    `shopname` varchar(32) default null,
+	primary key(shopid)	
+    )charset=utf8;	
+	
+create table infolist (	
+    `userid` int(11) default null,
+    `name` varchar(32) default null,
+	`phone` varchar(32) default null,
+	`idenid` varchar(32) default null,
+	`shopid` int(11) default null
+    )charset=utf8;	
+	
+create table limittime (	
+    `starttime` timestamp default 0,
+    `endtime` timestamp default 0
+    )charset=utf8;	
+insert into limittime(starttime,endtime) value(0,0);
+insert into shoplist(shopname) value('长春中东大市场'),('长春中东新天地'),('吉林中东新生活'),('中东城市广场通化店'),('中东城市广场松原店');
